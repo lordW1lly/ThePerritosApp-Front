@@ -13,7 +13,7 @@ export function AllFiltersButtos() {
     useEffect( () => {
         dispatch(getTemperaments())
     },[])
-    
+    //
     return (
         <>
             <div class="container fluid container-sm bttns">
