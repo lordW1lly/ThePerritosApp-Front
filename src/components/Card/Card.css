@@ -1,0 +1,12 @@
+.pictureSize {
+    height: 300px;
+
+    /* width: 350px; */
+    
+    object-fit: cover;
+}
+
+.noDeco {
+    text-decoration: none;
+    color: black;
+}

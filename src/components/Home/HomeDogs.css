@@ -1,0 +1,31 @@
+.individual {
+    display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  border: 5px solid black;
+  padding: 20px;
+  margin: 5px auto;
+}
+
+.breedPicture {
+  
+    display: flex;
+    border: aqua solid ;
+    justify-content: center;
+    width: 400px;
+    height: 400px;
+    display: flexbox;
+}
+/* img {
+  width:fit-content
+} */
+
+.dogInfo {
+  justify-content:space-around;
+  display: flexbox;
+}
+
+.nav-up {
+  margin-top:px;
+}
+ 
