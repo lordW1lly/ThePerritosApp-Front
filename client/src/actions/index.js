@@ -1,5 +1,6 @@
 import axios from 'axios';
 const UrlDeploy = 'https://theperritosapp-back-production.up.railway.app'
+const localHome = 'http://localhome:3000'
 //   //           
 
 
