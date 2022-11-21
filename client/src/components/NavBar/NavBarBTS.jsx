@@ -60,9 +60,9 @@ export function NavBar() {
                             {/*  <li class="nav-item">
                                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disableddddd</a>
                             </li> */}
-                            <li class="nav-item">
+                           {/*  <li class="nav-item">
                                 <a class="nav-link" data-bs-toggle="offcanvas" data-bs-target="#offcanvasTop" aria-controls="offcanvasTop">TopBar</a>
-                            </li>
+                            </li> */}
 
 
                         </ul>

@@ -15,8 +15,8 @@ export function FilterTemps() {
     const [tempis, setTempis] = useState([])
 
     useEffect(() => {
-        dispatch(getTemperaments())
-    }, [])
+        //dispatch(getTemperaments())
+    }, [dispatch, temps])
 
     
 

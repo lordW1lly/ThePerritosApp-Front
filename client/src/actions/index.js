@@ -1,7 +1,7 @@
 import axios from 'axios';
-const UrlDeploy = 'https://theperritosapp-back-production.up.railway.app'
-const localHome = 'http://localhome:3000'
-//   //           
+const UrlDeploy =  'http://localhost:3001'//'https://theperritosapp-back-production.up.railway.app'
+
+       
 
 
 
@@ -148,11 +148,11 @@ export function filterTemps(selectedTemps) {
                 }
                 return dogconcat
             })
-            console.log('soy dogsFinal',dogsFinal)
+            console.log('soy dogsFinal',dogsFinal)  
             /* console.log('soy filtered', filtered) */
             return dispatch({
                 type: 'FILTER_TEMPS',
-                payload: dogsFinal
+                payload: dogsFinal 
             })
         } catch(error) {
             console.log(error)
