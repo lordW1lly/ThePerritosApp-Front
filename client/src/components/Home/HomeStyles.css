@@ -1,0 +1,15 @@
+.NavbarStyle {
+    z-index: index 2000 !important;
+   
+    
+}
+.grande {
+    position: relative;
+}
+
+
+
+.resto {
+    position: relative;
+    z-index: index 0 ;
+}

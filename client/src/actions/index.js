@@ -1,6 +1,7 @@
 import axios from 'axios';
-const UrlDeploy = 'https://theperritosapp-back-production.up.railway.app'
-//   //           
+const UrlDeploy =  'http://localhost:3001'//'https://theperritosapp-back-production.up.railway.app'
+
+       
 
 
 
@@ -59,13 +60,7 @@ export  function reset() {
 export function createDog(dog, temperament) {
     return async (dispatch) => {
         try {
-            /* let newDog = {
-                name: dog.name,
-                height: `${dog.minHeight} - ${dog.maxHeight}`,
-                weight: `${dog.minWeight} - ${dog.maxWeight}`,
-                temperament: temperament.temperament,
-                lifeSpan: `${dog.minLifeSpan} - ${dog.maxLifeSpan}`
-            } */
+           
             let newDog = {
                 name: dog.name,
                 height: dog.height,
@@ -147,11 +142,11 @@ export function filterTemps(selectedTemps) {
                 }
                 return dogconcat
             })
-            console.log('soy dogsFinal',dogsFinal)
+            console.log('soy dogsFinal',dogsFinal)  
             /* console.log('soy filtered', filtered) */
             return dispatch({
                 type: 'FILTER_TEMPS',
-                payload: dogsFinal
+                payload: dogsFinal 
             })
         } catch(error) {
             console.log(error)
