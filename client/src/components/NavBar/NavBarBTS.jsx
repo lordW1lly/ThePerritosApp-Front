@@ -15,7 +15,7 @@ export function NavBar() {
 
 
     return (
-        <>
+        <div>
 
             <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
                 <div class="container-fluid">
@@ -25,7 +25,7 @@ export function NavBar() {
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse bg-dark" id="navbarSupportedContent">
+                    <div class="collapse navbar-collapse bg-dark NavbarStyle" id="navbarSupportedContent">
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item">
                                 <Link class='noDeco' exact to="/dogs" onClick={() => dispatch(getDogs())} >
@@ -74,7 +74,7 @@ export function NavBar() {
 
                 </div>
             </nav>
-            <div class="offcanvas offcanvas-top text-bg-dark" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
+           {/*  <div class="offcanvas offcanvas-top text-bg-dark" tabindex="-1" id="offcanvasTop" aria-labelledby="offcanvasTopLabel">
                 <div class="offcanvas-header">
                     <h5 class="offcanvas-title" id="offcanvasTopLabel">Filters</h5>
                     <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -82,8 +82,8 @@ export function NavBar() {
                 <div class="offcanvas-body">
                     <Filters />
                 </div>
-            </div>
-        </>
+            </div> */}
+        </div>
     )
 }
 

@@ -2,27 +2,27 @@ import { NavBar } from "../NavBar/NavBarBTS";
 import { AllFiltersButtos } from "../Filters/AllFiltersButtons";
 
 import { CardContainer } from "../CardsContainer/CardsContainer";
+import './HomeStyles.css'
 
 
 
-export function Home () {
+export function Home() {
 
-   
+
 
     return (
-        <>
-        <div>
-        <NavBar/>
-        </div>
+        <div class='grande'>
+            {/* <div>
+            </div> */}
+            <NavBar class="NavbarStyle" />
 
 
-        <div>
-        <AllFiltersButtos/>
+         
+            <div class='container-fluid resto'>
+                <AllFiltersButtos />
+                <CardContainer />
+            </div>
         </div>
-        <div class='container-fluid'>
-        <CardContainer/>
-        </div>
-        </>
 
     )
 }

@@ -60,13 +60,7 @@ export  function reset() {
 export function createDog(dog, temperament) {
     return async (dispatch) => {
         try {
-            /* let newDog = {
-                name: dog.name,
-                height: `${dog.minHeight} - ${dog.maxHeight}`,
-                weight: `${dog.minWeight} - ${dog.maxWeight}`,
-                temperament: temperament.temperament,
-                lifeSpan: `${dog.minLifeSpan} - ${dog.maxLifeSpan}`
-            } */
+           
             let newDog = {
                 name: dog.name,
                 height: dog.height,
