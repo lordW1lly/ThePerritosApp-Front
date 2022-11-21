@@ -1,5 +1,5 @@
 import axios from 'axios';
-const UrlDeploy =  'http://localhost:3001'//'https://theperritosapp-back-production.up.railway.app'
+const UrlDeploy =  'https://theperritosapp-back-production.up.railway.app' //'http://localhost:3001'//
 
        
 
